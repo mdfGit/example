@@ -3,7 +3,7 @@ variable "cidr_blockssg" {
   description = "CIDR for sg"
 }
 
-variable "sg_name" {
+variable "sg_name-sg" {
   default     = "rds_sg"
   description = "Tag Name for sg"
 }
