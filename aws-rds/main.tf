@@ -8,7 +8,8 @@ resource "aws_db_instance" "default" {
   username               = "${var.username}"
   password               = "${var.password}"
   vpc_security_group_ids = ["sg-f326d888"]
-  db_subnet_group_name   = ["subnet-c4c2b9ef"]
+  db_subnet_group_name   = "subnet-c4c2b9ef"
+  region                 = "us-east-1" 
 }
 
 resource "aws_db_subnet_group" "default" {
