@@ -1,4 +1,4 @@
-variable "cidr_blocks" {
+variable "cidr_blockssg" {
   default     = "0.0.0.0/0"
   description = "CIDR for sg"
 }
