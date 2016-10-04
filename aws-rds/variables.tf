@@ -38,6 +38,6 @@ variable "username" {
 }
 
 variable "password" {
-  default     = "$PASS"
+  default     = "${PASS}"
   description = "password, provide through your ENV variables"
 }
