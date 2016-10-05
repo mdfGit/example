@@ -20,6 +20,6 @@ resource "aws_db_instance" "default" {
 resource "aws_db_subnet_group" "default" {
   name        = "main_subnet_group"
   description = "Our main group of subnets"
-  subnet_ids  = ["subnet-942fd2cf", "subnet-8b2fd2d0"]
+  subnet_ids  = ["subnet-942fd2cf", "subnet-a775dbee"]
 }
 
