@@ -4,7 +4,7 @@ variable "identifier" {
 }
 
 variable "storage" {
-  default     = "10"
+  default     = "12"
   description = "Storage size in GB"
 }
 
