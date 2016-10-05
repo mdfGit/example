@@ -38,6 +38,17 @@ variable "username" {
 }
 
 variable "password" {
-  default     = "${PASS}"
   description = "password, provide through your ENV variables"
+}
+
+variable "aws_access_key" {
+  description = ""
+}
+
+variable "aws_secret_key" {
+  description = ""
+}
+
+variable "region" {
+  description = "us-east-1"
 }
